@@ -1,0 +1,162 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-02T14:22:34.544Z",
+        "before": [
+          {
+            "result": {
+              "duration": 3081000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "fwk.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Will test any random page",
+        "description": "",
+        "id": "this-is-my-first-feature-file;will-test-any-random-page",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open the browser",
+            "match": {
+              "location": "stepdefenitions.firstStepDefenition.i_open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2107000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open \"Hello\" site on chrome",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Hello\"",
+                  "offset": 5
+                }
+              ],
+              "location": "stepdefenitions.firstStepDefenition.open_site_on_chrome(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "site should load with out error",
+            "match": {
+              "location": "stepdefenitions.firstStepDefenition.site_should_load_with_out_error()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@First"
+          },
+          {
+            "name": "@Second"
+          }
+        ]
+      }
+    ],
+    "name": "This is my First Feature File",
+    "description": "",
+    "id": "this-is-my-first-feature-file",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/featurefiles/FirstFeatureFile.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-05-02T14:22:39.810Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "fwk.Hooks.openBrowser()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Will test any random page second time",
+        "description": "",
+        "id": "this-is-my-second-feature-file;will-test-any-random-page-second-time",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I open the browser second time",
+            "match": {
+              "location": "stepdefenitions.SecondStepDef.iOpenTheBrowserSecondTime()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2100000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "open \"Second\" site on chrome second time",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Second\"",
+                  "offset": 5
+                }
+              ],
+              "location": "stepdefenitions.SecondStepDef.openSiteOnChromeSecondTime(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "site should load with out error second time",
+            "match": {
+              "location": "stepdefenitions.SecondStepDef.siteShouldLoadWithOutErrorSecondTime()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Second"
+          }
+        ]
+      }
+    ],
+    "name": "This is my Second Feature File",
+    "description": "",
+    "id": "this-is-my-second-feature-file",
+    "keyword": "Feature",
+    "uri": "file:src/main/resources/featurefiles/SecondFeatureFile.feature",
+    "tags": []
+  }
+]
